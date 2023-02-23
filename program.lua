@@ -28,4 +28,4 @@ local function get(user, repo, branch, repoFile, saveTo)
       end --end the if
 end --close the function
 
-get(user, repo, branch, Args[0], Args[1])
+get(user, repo, branch, Args[1], Args[2])
