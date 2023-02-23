@@ -6,7 +6,7 @@ then
 end
 
 local user = "knowlage-storage"
-local repo = "minecraft
+local repo = "minecraft"
 local branch = "master"
 
 -- https://raw.githubusercontent.com/knowlage-storage/minecraft/master/program.lua
