@@ -27,4 +27,4 @@ local function get(user, repo, branch, repoFile, saveTo)
       end --end the if
 end --close the function
 
-get(Args[0], Args[1])
+get(user, repo, branch, Args[0], Args[1])
