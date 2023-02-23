@@ -1,6 +1,6 @@
 local Args = { ... }
 
-if #Args = 0
+if #Args == 0
 then
     print("Need set tunnel length")
     return
