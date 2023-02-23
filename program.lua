@@ -3,6 +3,7 @@ local Args = { ... }
 if #Args < 2
 then
     print("Enter command in format repoFile targetFile")
+    return
 end
 
 local user = "knowlage-storage"
