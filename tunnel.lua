@@ -6,9 +6,7 @@ then
     return
 end
 
-local length = Args[1]
-
-turtle.refuel()
+local length = tonumber(Args[1])
 
 while length > 0 do
 
